@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  margin-top:15px;
+  text-align: center;
+}
+
+form {
+  background-color: #3f65af;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(111, 167, 231);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input[type=button] {
+  font-size:15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
