@@ -24,8 +24,6 @@ function App() {
       username: {value: username},
       password: {value: password}
     } = e.target
-    console.log(username)
-    console.log(password)
     
     login({username, password})
   }
