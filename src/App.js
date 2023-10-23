@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
   const [user, setUser] = useState(null)
   const login = ({username, password}) => {
-    axios.post(process.env.REACT_APP_BACKEND_URI + "/users/login", {
+    axios.post("https://todo-app-api-3m81.onrender.com/users/login", {
         username,
         password
     })
